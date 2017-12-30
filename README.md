@@ -10,10 +10,13 @@ Configuration files for setting IPTV and PPPoe on Linux/Unix machines for Teleko
  * Tcpdump/Wireshark
 
 # Setup 
-                         [eth0]      [eth2]
+```
+                        eth0      eth2
 DSL line ----- Modem ----- OurRouter  ----- Wifi router
-                               \[eth2]
+                               \eth2
                                 \
-                                   STB
+                                STB
+```
+
 
 
