@@ -17,6 +17,12 @@ DSL line ----- Modem ----- OurRouter  ----- Wifi router
                                 \
                                 STB
 ```
+# Legend:
 
+eth0 - Wan interface that goes to the DSL modem
+
+eth1 - LAN iface where STB is connected to
+
+eth2 - LAN iface which is connected to a WiFi modem
 
 
